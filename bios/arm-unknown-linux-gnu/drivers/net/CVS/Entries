@@ -1,0 +1,21 @@
+/.3c59x.o.flags/1.2/Fri Oct 24 15:25:43 2003//
+/.arp.o.flags/1.2/Fri Oct 24 15:25:43 2003//
+/.bootp.o.flags/1.2/Fri Oct 24 15:25:43 2003//
+/.dec21041.o.flags/1.2/Fri Oct 24 15:25:43 2003//
+/.eth.o.flags/1.2/Fri Oct 24 15:25:43 2003//
+/.ip.o.flags/1.2/Fri Oct 24 15:25:43 2003//
+/.net.a.flags/1.1.1.1/Thu Sep 25 03:12:52 2003//
+/.net.o.flags/1.2/Fri Oct 24 15:25:43 2003//
+/.tftp.o.flags/1.2/Fri Oct 24 15:25:43 2003//
+/.udp.o.flags/1.2/Fri Oct 24 15:25:43 2003//
+/3c59x.c/1.1.1.1/Thu Sep 25 03:12:52 2003//
+/Makefile/1.1.1.1/Thu Sep 25 03:12:52 2003//
+/arp.c/1.1.1.1/Thu Sep 25 03:12:52 2003//
+/bootp.c/1.1.1.1/Thu Sep 25 03:12:52 2003//
+/dec21041.c/1.1.1.1/Thu Sep 25 03:12:52 2003//
+/eth.c/1.1.1.1/Thu Sep 25 03:12:52 2003//
+/ip.c/1.1.1.1/Thu Sep 25 03:12:52 2003//
+/net.c/1.1.1.1/Thu Sep 25 03:12:52 2003//
+/tftp.c/1.1.1.1/Thu Sep 25 03:12:52 2003//
+/udp.c/1.1.1.1/Thu Sep 25 03:12:52 2003//
+D

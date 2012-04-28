@@ -1,0 +1,25 @@
+block: 64 slots per queue, batch=16
+ide_init
+Uniform Multi-Platform E-IDE driver Revision: 6.31
+ide: Assuming 50MHz system bus speed for PIO modes; override with idebus=xx
+hd_init
+hda: 126MB, CHS=256/16/63
+Partition check:
+ hda: hda1
+VFS: Mounted root (ext2 filesystem) readonly.
+init-2.05a# ls
+bin   dev  home  lost+found  opt   root  tmp  var
+boot  etc  lib   mnt         proc  sbin  usr  zImage
+init-2.05a# alias ls="ls --color"
+init-2.05a# ls
+bin   dev  home  lost+found  opt   root  tmp  var
+boot  etc  lib   mnt         proc  sbin  usr  zImage
+init-2.05a# cd usr
+init-2.05a# ls
+bin  doc  etc  include  info  lib  local  man  sbin  share  src  tmp  var
+init-2.05a# ls
+bin  doc  etc  include  info  lib  local  man  sbin  share  src  tmp  var
+init-2: command not found~^[[24~^[[24~^[[24~^[[24~^[[24~^[[24~
+init-2.05a# ls
+bin  doc  etc  include  info  lib  local  man  sbin  share  src  tmp  var
+init-2.05a#

@@ -1,0 +1,3 @@
+ifeq (ctype.o checksum.o string.o vsprintf.o printf.o debug.o,$(strip $(subst $(comma),:,$(EXTRA_ARFLAGS) $(LX_OBJS) $(L_OBJS))))
+FILES_FLAGS_UP_TO_DATE += lib.a
+endif

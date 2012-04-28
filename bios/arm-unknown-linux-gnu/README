@@ -1,0 +1,58 @@
+Bios for EBSA-285
+-----------------
+
+Copyright (C) 1998 Russell King.
+
+Copyright: GPL
+
+Various bits'n'pieces taken from the Linux kernel
+
+
+This is a multi-function kernel loader for the EBSA-285 evaluation board and
+other DEC21285-based systems.  It is capable of loading a kernel over the
+locally attached network using BOOTP and TFTP protocols.  Future enhancements
+will allow loading of the kernel off a hard drive.
+
+Supported devices
+-----------------
+
+Currently, bios has been tested with:
+
+- 3com 3c59x network card
+- S3 Trio64V2+ VGA card
+- Promise UDMA IDE card
+   (Only tested on a Seagate ST35651A UDMA2 drive)
+
+Compilation
+-----------
+
+	*** THIS MUST BE COMPILED WITH AN A.OUT COMPILER ***
+
+To compile, edit the top-level make file and alter:
+
+1) TEXTADDR to be an address in the EBSA-285's flash.
+   The address is dependent on the bank number, and is calculated
+   as follows:
+
+	TEXTADDR = 0x410000a0 + bank * 0x00040000
+
+2) LINUXPATH to be the path to your ARM Linux 2.2 sources.  (I don't think
+   that this is still required).
+
+3) CROSS_COMPILE to be the prefix to use for the ARM toolchain
+
+Next, type "make dep".  This will generate the required dependency
+information.
+
+Then, type "make".  This will produce two binary files:
+ - bios.a.out - an unstripped a.out file
+ - bios       - the binary image of bios.a.out to program into the flash,
+                with the A.OUT headers replaced by AIF headers.
+
+Configuration
+-------------
+
+The loader uses jumper J17 pins 11-12 to configure the root device that
+the kernel will use.  With the jumper fitted, it will boot from the
+/dev/hda3 device.  With it removed, the kernel will try to get an NFS root
+filesystem.

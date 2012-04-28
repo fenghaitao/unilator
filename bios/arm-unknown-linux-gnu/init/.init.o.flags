@@ -1,0 +1,3 @@
+ifeq (main.o ramtest.o time.o vec.o boot.o,$(strip $(subst $(comma),:,$(EXTRA_LDFLAGS) $(ALL_O))))
+FILES_FLAGS_UP_TO_DATE += init.o
+endif

@@ -1,0 +1,2 @@
+g++ -o bochs -g -O2 -D_FILE_OFFSET_BITS=64 -D_LARGE_FILES -DBX_SHARE_PATH=\"/usr/local/share/bochs\" logio.o main.o load32bitOShack.o state_file.o pc_system.o osdep.o plugin.o -Wl,--export-dynamic  iodev/libiodev.a cpu/arm-unknown-linux-gnu/libcpu.a memory/libmemory.a gui/libgui.a -L/usr/X11R6/lib -lSM -lICE -lX11 -lm
+

@@ -1,0 +1,35 @@
+/.cvsignore/1.1.1.1/Thu Sep 25 03:12:54 2003//
+/Makefile.in/1.1.1.1/Thu Sep 25 03:12:54 2003//
+/amigagui.h/1.1.1.1/Thu Sep 25 03:12:54 2003//
+/amigaos.cc/1.1.1.1/Thu Sep 25 03:12:54 2003//
+/beos.cc/1.1.1.1/Thu Sep 25 03:12:54 2003//
+/carbon.cc/1.1.1.1/Thu Sep 25 03:12:54 2003//
+/gui.cc/1.1.1.1/Thu Sep 25 03:12:54 2003//
+/gui.h/1.1.1.1/Thu Sep 25 03:12:54 2003//
+/icon_bochs.h/1.1.1.1/Thu Sep 25 03:12:54 2003//
+/keymap.cc/1.1.1.1/Thu Sep 25 03:12:54 2003//
+/keymap.h/1.1.1.1/Thu Sep 25 03:12:54 2003//
+/macintosh.cc/1.1.1.1/Thu Sep 25 03:12:54 2003//
+/nogui.cc/1.1.1.1/Thu Sep 25 03:12:54 2003//
+/rfb.cc/1.1.1.1/Thu Sep 25 03:12:54 2003//
+/rfb.h/1.1.1.1/Thu Sep 25 03:12:54 2003//
+/rfbproto.h/1.1.1.1/Thu Sep 25 03:12:54 2003//
+/sdl.cc/1.1.1.1/Thu Sep 25 03:12:54 2003//
+/sdl.h/1.1.1.1/Thu Sep 25 03:12:54 2003//
+/sdlkeys.h/1.1.1.1/Thu Sep 25 03:12:54 2003//
+/semantic.cache/1.1.1.1/Thu Sep 25 03:12:54 2003//
+/siminterface.cc/1.1.1.1/Thu Sep 25 03:12:54 2003//
+/siminterface.h/1.1.1.1/Thu Sep 25 03:12:54 2003//
+/svga.cc/1.1.1.1/Thu Sep 25 03:12:54 2003//
+/term.cc/1.1.1.1/Thu Sep 25 03:12:54 2003//
+/textconfig.cc/1.1.1.1/Thu Sep 25 03:12:54 2003//
+/textconfig.h/1.1.1.1/Thu Sep 25 03:12:54 2003//
+/win32.cc/1.1.1.1/Thu Sep 25 03:12:54 2003//
+/wx.cc/1.1.1.1/Thu Sep 25 03:12:54 2003//
+/wxdialog.cc/1.1.1.1/Thu Sep 25 03:12:54 2003//
+/wxdialog.h/1.1.1.1/Thu Sep 25 03:12:54 2003//
+/wxmain.cc/1.1.1.1/Thu Sep 25 03:12:54 2003//
+/wxmain.h/1.1.1.1/Thu Sep 25 03:12:54 2003//
+/x.cc/1.1.1.1/Thu Sep 25 03:12:54 2003//
+D/bitmaps////
+D/keymaps////

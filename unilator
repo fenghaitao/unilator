@@ -1,0 +1,3 @@
+mkfontdir ./font
+xset fp+ `pwd`/font
+./bochs

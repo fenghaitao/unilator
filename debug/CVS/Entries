@@ -1,0 +1,17 @@
+/.cvsignore/1.1.1.1/Thu Sep 25 03:12:53 2003//
+/Makefile.in/1.1.1.1/Thu Sep 25 03:12:53 2003//
+/crc.cc/1.1.1.1/Thu Sep 25 03:12:53 2003//
+/dbg_main.cc/1.1.1.1/Thu Sep 25 03:12:53 2003//
+/debug.h/1.1.1.1/Thu Sep 25 03:12:53 2003//
+/lexer.c/1.1.1.1/Thu Sep 25 03:12:53 2003//
+/lexer.l/1.1.1.1/Thu Sep 25 03:12:53 2003//
+/linux.cc/1.1.1.1/Thu Sep 25 03:12:53 2003//
+/linux.h/1.1.1.1/Thu Sep 25 03:12:53 2003//
+/loader_misc.h/1.1.1.1/Thu Sep 25 03:12:53 2003//
+/make-syscalls-linux.pl/1.1.1.1/Thu Sep 25 03:12:53 2003//
+/parser.c/1.1.1.1/Thu Sep 25 03:12:53 2003//
+/parser.h/1.1.1.1/Thu Sep 25 03:12:53 2003//
+/parser.y/1.1.1.1/Thu Sep 25 03:12:53 2003//
+/sim2.cc/1.1.1.1/Thu Sep 25 03:12:53 2003//
+/syscalls-linux.h/1.1.1.1/Thu Sep 25 03:12:53 2003//
+D

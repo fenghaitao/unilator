@@ -1,0 +1,3 @@
+ifeq (net.o bootp.o tftp.o udp.o ip.o arp.o eth.o 3c59x.o dec21041.o,$(strip $(subst $(comma),:,$(EXTRA_ARFLAGS) $(LX_OBJS) $(L_OBJS))))
+FILES_FLAGS_UP_TO_DATE += net.a
+endif

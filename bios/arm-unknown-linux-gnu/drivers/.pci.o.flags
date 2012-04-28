@@ -1,0 +1,3 @@
+ifeq (-Wall -msoft-float -fomit-frame-pointer -fno-builtin -I/mnt/Development/structed/bochs-2.0.2/bios/arm-unknown-linux-gnu/include,$(strip $(subst $(comma),:,$(CFLAGS) $(EXTRA_CFLAGS) $(CFLAGS_pci.o))))
+FILES_FLAGS_UP_TO_DATE += pci.o
+endif

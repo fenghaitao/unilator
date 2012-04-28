@@ -1,0 +1,213 @@
+autom4te.cache/output.0:@%:@define BX_DEBUGGER 1
+autom4te.cache/output.0:@%:@define BX_DEBUGGER 0
+autom4te.cache/output.0:@%:@define BX_DEBUGGER 0
+autom4te.cache/traces.0:m4trace:configure.in:1019: -1- AC_DEFINE_TRACE_LITERAL([BX_DEBUGGER])
+autom4te.cache/traces.0:m4trace:configure.in:1019: -1- AC_DEFINE_TRACE_LITERAL([BX_DEBUGGER])
+autom4te.cache/traces.0:m4trace:configure.in:1019: -1- AC_DEFINE_TRACE_LITERAL([BX_DEBUGGER])
+bochs.h:#if ((BX_DEBUGGER == 1) && (BX_NUM_SIMULATORS >= 2))
+bochs.h:#if BX_DEBUGGER
+bochs.h:#else  // #if BX_DEBUGGER
+bochs.h:#endif  // #if BX_DEBUGGER
+config.h:#define BX_DEBUGGER 1
+config.h.in:#define BX_DEBUGGER 0
+config.log:| #define BX_DEBUGGER 1
+config.log:| #define BX_DEBUGGER 1
+config.log:| #define BX_DEBUGGER 1
+config.log:| #define BX_DEBUGGER 1
+config.log:| #define BX_DEBUGGER 1
+config.log:| #define BX_DEBUGGER 1
+config.log:| #define BX_DEBUGGER 1
+config.log:| #define BX_DEBUGGER 1
+config.log:#define BX_DEBUGGER 1
+config.status:${ac_dA}BX_DEBUGGER${ac_dB}BX_DEBUGGER${ac_dC}1${ac_dD}
+config.status:${ac_uA}BX_DEBUGGER${ac_uB}BX_DEBUGGER${ac_uC}1${ac_uD}
+configure:#define BX_DEBUGGER 1
+configure:#define BX_DEBUGGER 0
+configure:#define BX_DEBUGGER 0
+configure.in:    AC_DEFINE(BX_DEBUGGER, 1)
+configure.in:    AC_DEFINE(BX_DEBUGGER, 0)
+configure.in:    AC_DEFINE(BX_DEBUGGER, 0)
+cpu/arm-unknown-linux-gnu/cpu.cc:#if BX_DEBUGGER
+cpu/arm-unknown-linux-gnu/cpu.cc:#endif  // #if BX_DEBUGGER
+cpu/arm-unknown-linux-gnu/cpu.cc:#if BX_DEBUGGER
+cpu/arm-unknown-linux-gnu/cpu.cc:#endif  // #if BX_DEBUGGER
+cpu/arm-unknown-linux-gnu/cpu.h:#if BX_DEBUGGER
+cpu/arm-unknown-linux-gnu/cpu.h:#if BX_DEBUGGER
+cpu/arm-unknown-linux-gnu/debugstuff.cc:#if BX_DEBUGGER
+cpu/arm-unknown-linux-gnu/debugstuff.cc:#endif  // #if BX_DEBUGGER
+cpu/arm-unknown-linux-gnu/init.cc:#if BX_DEBUGGER
+cpu/arm-unknown-linux-gnu/init.cc:#if   BX_DEBUGGER
+cpu/arm-unknown-linux-gnu/init.cc:#if BX_DEBUGGER
+cpu/arm-unknown-linux-gnu/paging.cc:#if BX_DEBUGGER || BX_DISASM || BX_INSTRUMENTATION || BX_GDBSTUB
+cpu/i686-pc-linux-gnu/cpu.cc:#if BX_DEBUGGER
+cpu/i686-pc-linux-gnu/cpu.cc:#if BX_DEBUGGER
+cpu/i686-pc-linux-gnu/cpu.cc:#if BX_DEBUGGER
+cpu/i686-pc-linux-gnu/cpu.cc:#endif  // #if BX_DEBUGGER
+cpu/i686-pc-linux-gnu/cpu.cc:#if BX_DEBUGGER
+cpu/i686-pc-linux-gnu/cpu.cc:#if BX_DEBUGGER == 0
+cpu/i686-pc-linux-gnu/cpu.cc:#else  /* if BX_DEBUGGER == 1 */
+cpu/i686-pc-linux-gnu/cpu.cc:#if (BX_SMP_PROCESSORS>1 && BX_DEBUGGER==0)
+cpu/i686-pc-linux-gnu/cpu.cc:#if BX_DEBUGGER
+cpu/i686-pc-linux-gnu/cpu.cc:#endif  // #if BX_DEBUGGER
+cpu/i686-pc-linux-gnu/cpu.cc:#if BX_DEBUGGER
+cpu/i686-pc-linux-gnu/cpu.cc:#if BX_DEBUGGER
+cpu/i686-pc-linux-gnu/cpu.cc:#if BX_DEBUGGER
+cpu/i686-pc-linux-gnu/cpu.cc:#endif  // #if BX_DEBUGGER
+cpu/i686-pc-linux-gnu/cpu.h:#if BX_DEBUGGER
+cpu/i686-pc-linux-gnu/cpu.h:#if BX_DEBUGGER
+cpu/i686-pc-linux-gnu/cpu.h:#if BX_DEBUGGER || BX_DISASM || BX_INSTRUMENTATION || BX_GDBSTUB
+cpu/i686-pc-linux-gnu/cpu.h:#if BX_DEBUGGER
+cpu/i686-pc-linux-gnu/ctrl_xfer16.cc:#if BX_DEBUGGER
+cpu/i686-pc-linux-gnu/ctrl_xfer16.cc:#if BX_DEBUGGER
+cpu/i686-pc-linux-gnu/ctrl_xfer16.cc:#if BX_DEBUGGER
+cpu/i686-pc-linux-gnu/ctrl_xfer16.cc:#if BX_DEBUGGER
+cpu/i686-pc-linux-gnu/ctrl_xfer16.cc:#if BX_DEBUGGER
+cpu/i686-pc-linux-gnu/ctrl_xfer16.cc:#if BX_DEBUGGER
+cpu/i686-pc-linux-gnu/ctrl_xfer16.cc:#if BX_DEBUGGER
+cpu/i686-pc-linux-gnu/ctrl_xfer16.cc:#if BX_DEBUGGER
+cpu/i686-pc-linux-gnu/ctrl_xfer16.cc:#if BX_DEBUGGER
+cpu/i686-pc-linux-gnu/ctrl_xfer32.cc:#if BX_DEBUGGER
+cpu/i686-pc-linux-gnu/ctrl_xfer32.cc:#if BX_DEBUGGER
+cpu/i686-pc-linux-gnu/ctrl_xfer32.cc:#if BX_DEBUGGER
+cpu/i686-pc-linux-gnu/ctrl_xfer32.cc:#if BX_DEBUGGER
+cpu/i686-pc-linux-gnu/ctrl_xfer32.cc:#if BX_DEBUGGER
+cpu/i686-pc-linux-gnu/ctrl_xfer32.cc:#if BX_DEBUGGER
+cpu/i686-pc-linux-gnu/ctrl_xfer32.cc:#if BX_DEBUGGER
+cpu/i686-pc-linux-gnu/ctrl_xfer32.cc:#if BX_DEBUGGER
+cpu/i686-pc-linux-gnu/ctrl_xfer32.cc:#if BX_DEBUGGER
+cpu/i686-pc-linux-gnu/ctrl_xfer64.cc:#if BX_DEBUGGER
+cpu/i686-pc-linux-gnu/ctrl_xfer64.cc:#if BX_DEBUGGER
+cpu/i686-pc-linux-gnu/ctrl_xfer64.cc:#if BX_DEBUGGER
+cpu/i686-pc-linux-gnu/ctrl_xfer64.cc:#if BX_DEBUGGER
+cpu/i686-pc-linux-gnu/ctrl_xfer64.cc:#if BX_DEBUGGER
+cpu/i686-pc-linux-gnu/ctrl_xfer64.cc:#if BX_DEBUGGER
+cpu/i686-pc-linux-gnu/ctrl_xfer64.cc:#if BX_DEBUGGER
+cpu/i686-pc-linux-gnu/ctrl_xfer64.cc:#if BX_DEBUGGER
+cpu/i686-pc-linux-gnu/ctrl_xfer64.cc:#if BX_DEBUGGER
+cpu/i686-pc-linux-gnu/data_xfer16.cc:#if BX_DEBUGGER
+cpu/i686-pc-linux-gnu/debugstuff.cc:#if BX_DEBUGGER
+cpu/i686-pc-linux-gnu/debugstuff.cc:#endif  // #if BX_DEBUGGER
+cpu/i686-pc-linux-gnu/exception.cc:#if BX_DEBUGGER
+cpu/i686-pc-linux-gnu/exception.cc:#if BX_DEBUGGER
+cpu/i686-pc-linux-gnu/exception.cc:#if BX_DEBUGGER
+cpu/i686-pc-linux-gnu/exception.cc:#if BX_DEBUGGER
+cpu/i686-pc-linux-gnu/init.cc:#if BX_DEBUGGER
+cpu/i686-pc-linux-gnu/io.cc:#if (BX_DEBUGGER == 0)
+cpu/i686-pc-linux-gnu/io.cc:#endif  // (BX_DEBUGGER == 0)
+cpu/i686-pc-linux-gnu/io.cc:#if (BX_DEBUGGER == 0)
+cpu/i686-pc-linux-gnu/io.cc:#if (BX_DEBUGGER == 0)
+cpu/i686-pc-linux-gnu/io.cc:#endif  // (BX_DEBUGGER == 0)
+cpu/i686-pc-linux-gnu/io.cc:#if (BX_DEBUGGER == 0)
+cpu/i686-pc-linux-gnu/paging.cc:#if BX_DEBUGGER || BX_DISASM || BX_INSTRUMENTATION || BX_GDBSTUB
+cpu/i686-pc-linux-gnu/soft_int.cc:#if BX_DEBUGGER
+cpu/i686-pc-linux-gnu/soft_int.cc:#if BX_DEBUGGER
+cpu/i686-pc-linux-gnu/soft_int.cc:#if BX_DEBUGGER
+cpu/i686-pc-linux-gnu/soft_int.cc:#if BX_DEBUGGER
+cpu/i686-pc-linux-gnu/string.cc:#if (BX_DEBUGGER == 0)
+cpu/i686-pc-linux-gnu/string.cc:#endif  // (BX_DEBUGGER == 0)
+cpu/i686-pc-linux-gnu/string.cc:#if (BX_DEBUGGER == 0)
+cpu/i686-pc-linux-gnu/string.cc:#endif  // (BX_DEBUGGER == 0)
+cpu/i686-pc-linux-gnu/string.cc:#if (BX_DEBUGGER == 0)
+cpu/i686-pc-linux-gnu/string.cc:#endif  // (BX_DEBUGGER == 0)
+cpu/i686-pc-linux-gnu/string.cc:#if (BX_DEBUGGER == 0)
+cpu/i686-pc-linux-gnu/string.cc:#if (BX_DEBUGGER == 0)
+cpu/i686-pc-linux-gnu/string.cc:#endif  // (BX_DEBUGGER == 0)
+cpu/i686-pc-linux-gnu/string.cc:#if (BX_DEBUGGER == 0)
+cpu/i686-pc-linux-gnu/string.cc:#if (BX_DEBUGGER == 0)
+cpu/i686-pc-linux-gnu/string.cc:#endif  // (BX_DEBUGGER == 0)
+cpu/i686-pc-linux-gnu/string.cc:#if (BX_DEBUGGER == 0)
+cpu/unicore32-unknown-linux-gnu/cpu.cc:#if BX_DEBUGGER
+cpu/unicore32-unknown-linux-gnu/cpu.cc:#endif  // #if BX_DEBUGGER
+cpu/unicore32-unknown-linux-gnu/cpu.cc:#if BX_DEBUGGER
+cpu/unicore32-unknown-linux-gnu/cpu.cc:#if BX_DEBUGGER
+cpu/unicore32-unknown-linux-gnu/cpu.cc:#if BX_DEBUGGER
+cpu/unicore32-unknown-linux-gnu/cpu.cc:#endif  // #if BX_DEBUGGER
+cpu/unicore32-unknown-linux-gnu/cpu.h:#if BX_DEBUGGER
+cpu/unicore32-unknown-linux-gnu/cpu.h:#if BX_DEBUGGER
+cpu/unicore32-unknown-linux-gnu/cpu.h:#if BX_DEBUGGER || BX_DISASM || BX_INSTRUMENTATION || BX_GDBSTUB
+cpu/unicore32-unknown-linux-gnu/cpu.h:#if BX_DEBUGGER
+cpu/unicore32-unknown-linux-gnu/debugstuff.cc:#if BX_DEBUGGER
+cpu/unicore32-unknown-linux-gnu/debugstuff.cc:#endif  // #if BX_DEBUGGER
+cpu/unicore32-unknown-linux-gnu/exception.cc:#if BX_DEBUGGER
+cpu/unicore32-unknown-linux-gnu/exception.cc:#if BX_DEBUGGER
+cpu/unicore32-unknown-linux-gnu/exception.cc:#if BX_DEBUGGER
+cpu/unicore32-unknown-linux-gnu/exception.cc:#if BX_DEBUGGER
+cpu/unicore32-unknown-linux-gnu/init.cc:#if BX_DEBUGGER
+cpu/unicore32-unknown-linux-gnu/init.cc:#if   BX_DEBUGGER
+cpu/unicore32-unknown-linux-gnu/init.cc:#if BX_DEBUGGER
+cpu/unicore32-unknown-linux-gnu/paging.cc:#if BX_DEBUGGER || BX_DISASM || BX_INSTRUMENTATION || BX_GDBSTUB
+cpu/cpu.h:#if BX_DEBUGGER
+cpu/cpu.h:#if BX_DEBUGGER
+debug/Makefile.in:	@echo '#endif  /* if BX_DEBUGGER */' >> parser.c
+debug/crc.cc:#if BX_DEBUGGER
+debug/crc.cc:#endif /* if BX_DEBUGGER */
+debug/dbg_main.cc:#if BX_DEBUGGER
+debug/dbg_main.cc:#if BX_DEBUGGER
+debug/dbg_main.cc:#endif /* if BX_DEBUGGER */
+debug/debug.h:#if BX_DEBUGGER
+debug/debug.h:#endif // #if BX_DEBUGGER
+debug/lexer.c:#if BX_DEBUGGER
+debug/lexer.c:#endif /* if BX_DEBUGGER */
+debug/lexer.l:#if BX_DEBUGGER
+debug/lexer.l:#endif /* if BX_DEBUGGER */
+debug/linux.cc:#if BX_DEBUGGER
+debug/linux.cc:#endif /* if BX_DEBUGGER */
+debug/parser.c:#if BX_DEBUGGER
+debug/parser.c:#endif  /* if BX_DEBUGGER */
+debug/parser.y:#if BX_DEBUGGER
+debug/Makefile:	@echo '#endif  /* if BX_DEBUGGER */' >> parser.c
+doc/docbook/misc.txt:|	#define BX_DEBUGGER 1
+doc/docbook/misc.txt:|	<<build again with BX_DEBUGGER=1 this time>>
+gui/siminterface.cc:#if BX_DEBUGGER
+gui/siminterface.cc:#if BX_DEBUGGER
+gui/siminterface.h:#if BX_DEBUGGER
+gui/siminterface.h:#if BX_DEBUGGER
+gui/textconfig.cc:int log_action_n_choices = 4 + (BX_DEBUGGER?1:0);
+gui/textconfig.cc:#if BX_DEBUGGER
+gui/wxdialog.cc:#if BX_DEBUGGER
+gui/wxdialog.cc:#if BX_DEBUGGER
+gui/wxdialog.cc:#if BX_DEBUGGER
+gui/wxdialog.cc:#if BX_DEBUGGER
+gui/wxdialog.cc:#if BX_DEBUGGER
+gui/wxdialog.h:#if BX_DEBUGGER
+gui/wxdialog.h:#if BX_DEBUGGER
+gui/wxmain.cc:#if BX_DEBUGGER
+gui/wxmain.cc:#if BX_DEBUGGER
+gui/wxmain.cc:#if BX_DEBUGGER
+gui/wxmain.cc:#if BX_DEBUGGER
+gui/wxmain.cc:#if BX_DEBUGGER
+gui/wxmain.cc:#if BX_DEBUGGER
+gui/wxmain.cc:#if BX_DEBUGGER
+gui/wxmain.cc:#if !BX_DEBUGGER
+gui/wxmain.h:#if BX_DEBUGGER
+gui/wxmain.h:#if BX_DEBUGGER
+iodev/iodebug.cc:#if BX_DEBUGGER
+iodev/iodebug.cc:#if BX_DEBUGGER
+iodev/iodebug.cc:#if BX_DEBUGGER
+iodev/ne2k.cc:#if BX_DEBUGGER
+logio.cc:#if BX_DEBUGGER
+logio.cc:#if !BX_DEBUGGER
+main.cc:#elif BX_DEBUGGER
+main.cc:#if BX_DEBUGGER == 0
+main.cc:#if !BX_DEBUGGER
+main.cc:#if BX_DEBUGGER == 0
+main.cc:#if !BX_DEBUGGER
+memory/memory.cc:#if BX_DEBUGGER
+memory/memory.cc:#if BX_DEBUGGER
+memory/memory.h:#if BX_DEBUGGER
+memory/memory.h:#if BX_DEBUGGER
+memory/memory.h:#if BX_DEBUGGER
+memory/misc_mem.cc:#if BX_DEBUGGER
+memory/misc_mem.cc:#if ( BX_DEBUGGER || BX_DISASM || BX_GDBSTUB)
+memory/misc_mem.cc:#if BX_DEBUGGER || BX_GDBSTUB
+memory/mmu.cc:#if BX_DEBUGGER || BX_DISASM || BX_INSTRUMENTATION || BX_GDBSTUB
+memory/mmu.cc.error:#if BX_DEBUGGER || BX_DISASM || BX_INSTRUMENTATION || BX_GDBSTUB
+patches/patch.apic-mrieker:-#if BX_DEBUGGER
+patches/patch.apic-mrieker:+#if BX_DEBUGGER
+patches/patch.config-ext-debugger: #define BX_DEBUGGER 0
+patches/patch.example-override-ask:+      // note: 4 only available if BX_DEBUGGER=1. ideally, don't show it
+patches/patch.highmem: #if BX_DEBUGGER
+patches/patch.trace-interrupts:+#if BX_DEBUGGER
+pc_system.cc:#if BX_DEBUGGER
+pc_system.cc:#endif // BX_DEBUGGER
+pc_system.h:#if BX_DEBUGGER

@@ -1,0 +1,12 @@
+ips: 9000000
+megs: 32
+
+romimage: file=./bios/arm-unknown-linux-gnu/bios.img, address=0x30000
+vgaromimage: bios/i686-pc-linux-gnu/vgabios-0.3b/vgabios.bin
+
+ata0-master: type=disk, path=./img/Linux_Img.arm, cylinders=1024, heads=16, spt=63
+boot: disk
+
+keyboard_serial_delay: 250
+
+
